@@ -1,121 +1,53 @@
-*{
-    margin: 0;
+
+
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgba(143, 147, 119, 0.69);
+
 }
+
 nav{
     background-color: black;
-    color :white;
+    color: white;
     display: flex;
     justify-content: space-between;
-    padding: 5px 15px;
-  align-items: center;
+    align-items: center;
+    padding: 5px 40px;
 }
-nav>div>div{
+
+.route{
     display: flex;
-    gap:20px;
-    padding: 5px 15px;
-}
-a{
-    padding: 10px;
-    text-decoration: none;
-    font-size: large;
-    color: white;
-}
-h1{
-    text-align: center;
-}
-.product-div{
-    padding: 50px;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    align-items: center;
     gap: 20px;
- 
 }
-.product{
-    border: 1px solid darkblue;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  
-}
-button{
-    background-color: black;
-    color: white;
-    padding: 10px;
-    font-size: medium;
+input{
+    padding: 5px 10px;
+    width: 20vw;
+    font-size: 18px;
+    outline: none;
     border: none;
 }
-img{
-    width: 22vw;
-    height: 45vh;
+button{
+    padding: 5px 10px;
+   background-color: rgb(98, 98, 239);
+    outline: none;
+    font-size: 18px;
+    border: none;
 }
-.cart-div{
-    padding: 50px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 20px;
- 
-}
-
-.product-cart{
-    padding: 10px 50px ;
-    display: flex;
-    gap: 50px;
-    
-}
-h2{
-    align-items: center;
-}
-.price-list{
-    
-    /* border: 1px solid red; */
-    width:30vw;
-    background-color: black;
-    color: white;
-    /* display: flex;
-    flex-direction: column; */
-    height: fit-content;
-    padding-bottom: 20px;
-}
-.price-list>div{
-    height: 15vh;
-    /* border: 1px solid black; */
-    background-color: white;
-}
-.price-list>h2{
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: black;
-    color: white;
-    border-bottom: 1px solid white;
-}
-.price-list>ul>li{
-    list-style-type: none;
-}
-.name-price{
-    /* display: flex;
-    justify-content: space-between; */
-}
-table,th,td{
-   
-    
-    padding: 20px 20px;
-}  
-table{
-    background-color: black;
-    color: white;
-    width: 100%;
-    align-items: center;
-    border-collapse: collapse;
+.detail{
+    /* height: 100vh; */
     padding: 20px 50px;
+   
+    background-image:linear-gradient(to right,rgba(216, 157, 157, 0.579),rgba(136, 136, 206, 0.684))
 }
-.price-list>button{
-    background-color: white;
-    color: black;
-    width:80%;
-    margin-top: 50px;
-    margin-left: 40px;
+.search{
+    
+    display: flex;
+    padding: 20px 20px;
+    /* align-items: center; */
+    justify-content: center;
 }
-
-
-  
+.def-p{
+    padding-left: 30px;
+}
